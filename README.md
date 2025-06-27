@@ -54,47 +54,47 @@ This project is a backend system for managing mutual fund accounts. It supports 
 ### 💼 Mutual Fund Management
 - `POST /api/funds` → Add new fund (ADMIN only)
   ### 1. Admin add mutual fund(POST /api/funds)
-  ![image alt]()
+  ![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/4_funds_add_Admin.png)
 
 
    ---
 - `GET /api/funds` → List all funds
    ### 2. View mutual fund(GET /api/funds)
   
-![image alt]()
-![image alt]()
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/3_funds_Admin.png
+)
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/3_funds.png)
 
   ---
   
 - `GET /api/funds/{id}` → Get fund details
   ### 3. View mutual fund by id (GET /api/funds/{id})
-![image alt]()
-![image alt]()
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/4_funds_id_Admin.png
+)
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/4_funds_id.png)
 
   ---
 ### 💸 Investment Transactions (USER)
 - `POST /api/transactions/buy` → Buy mutual fund
    ### 1. Buy mutual fund (POST /api/transactions/buy)
-![image alt]()
-![image alt]()
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/5_transactions_buy_User.png)
 
   ---
 - `POST /api/transactions/sell` → Sell mutual fund
    ### 2.Sell mutual fund (POST /api/transactions/sell)
-![image alt]()
-![image alt]()
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/6_transactions_sell_User.png)
+
 
   ---
 - `GET /api/transactions` → Get logged-in user’s transactions
    ### 3. View all your transactions (GET /api/transactions)
-![image alt]()
-![image alt]()
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/7_transactions_User.png)
+
 
   ---
 - `GET /api/transactions/{id}` → Get one transaction
    ### 3.View a specific transaction by ID (GET /api/transactions/{id})
-![image alt]()
-![image alt]()
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/94e93644b17092e416f7dc83e0c447d0b89d5847/mfams/image/7_transaction_id.png)
 
   ---
 
