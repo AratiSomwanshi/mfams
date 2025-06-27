@@ -74,9 +74,29 @@ This project is a backend system for managing mutual fund accounts. It supports 
   ---
 ### 💸 Investment Transactions (USER)
 - `POST /api/transactions/buy` → Buy mutual fund
+   ### 1. Buy mutual fund (POST /api/transactions/buy)
+![image alt]()
+![image alt]()
+
+  ---
 - `POST /api/transactions/sell` → Sell mutual fund
+   ### 2.Sell mutual fund (POST /api/transactions/sell)
+![image alt]()
+![image alt]()
+
+  ---
 - `GET /api/transactions` → Get logged-in user’s transactions
+   ### 3. View all your transactions (GET /api/transactions)
+![image alt]()
+![image alt]()
+
+  ---
 - `GET /api/transactions/{id}` → Get one transaction
+   ### 3.View a specific transaction by ID (GET /api/transactions/{id})
+![image alt]()
+![image alt]()
+
+  ---
 
 
 
