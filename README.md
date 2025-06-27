@@ -32,7 +32,17 @@ This project is a backend system for managing mutual fund accounts. It supports 
 
 ### 🔐 Authentication (Public)
 - `POST /api/auth/register` → Register a new user (ADMIN or USER)
+### 1. Register a user (POST `/api/auth/register`)
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/2b65e14e1ef24d88b25493837afe9a43323d9cc4/mfams/image/1_Registration_Admin.png)
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/3b2e232e125381f1119b8925444d68a06c8b1df6/mfams/image/1_Registration_User.png)
+
+
+---
+### 2. Login a user (POST /api/auth/login)
+
 - `POST /api/auth/login` → Login and receive JWT token
+  ![image alt]()
+  ![image alt]()
 - `GET /api/auth/me` → Get current user info
 
 ### 💼 Mutual Fund Management
@@ -46,23 +56,10 @@ This project is a backend system for managing mutual fund accounts. It supports 
 - `GET /api/transactions` → Get logged-in user’s transactions
 - `GET /api/transactions/{id}` → Get one transaction
 
+
+
+
 ### ⏱ Scheduled Task
 - Automatic NAV update daily at 12 AM using random % fluctuation
 
 ---
-
-## 🔐 Security
-
-JWT token-based authentication with `Authorization: Bearer <token>` header.  
-Role-based access using Spring Security and `@PreAuthorize`.
-
----
-
-## 🧪 How to Test (Postman)
-
-### 1. Register a user (POST `/api/auth/register`)
-
-###
-
-
-![image alt](https://github.com/AratiSomwanshi/mfams/blob/3b2e232e125381f1119b8925444d68a06c8b1df6/mfams/image/1_Registration_User.png)
