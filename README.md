@@ -64,7 +64,7 @@ Role-based access using Spring Security and `@PreAuthorize`.
 ```json
 {
   "username": "arati",
-  "email": "arati@example.com",
+  "email": "arati@gmail.com",
   "password": "123456",
   "role": "USER"
 }
