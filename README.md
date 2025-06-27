@@ -48,14 +48,30 @@ This project is a backend system for managing mutual fund accounts. It supports 
   ---
 - `GET /api/auth/me` → Get current user info
   ### 3. User info (GET /api/auth/me)
-  !i[image alt]()
+  ![image alt](https://github.com/AratiSomwanshi/mfams/blob/7d81ca52b857328c1a06ae9d774e5c18c7eb7873/mfams/image/3_Auth_me.png)
   
-
+  ---
 ### 💼 Mutual Fund Management
 - `POST /api/funds` → Add new fund (ADMIN only)
-- `GET /api/funds` → List all funds
-- `GET /api/funds/{id}` → Get fund details
+  ### 1. Admin add mutual fund(POST /api/funds)
+  ![image alt]()
 
+
+   ---
+- `GET /api/funds` → List all funds
+   ### 2. View mutual fund(GET /api/funds)
+  
+![image alt]()
+![image alt]()
+
+  ---
+  
+- `GET /api/funds/{id}` → Get fund details
+  ### 3. View mutual fund by id (GET /api/funds/{id})
+![image alt]()
+![image alt]()
+
+  ---
 ### 💸 Investment Transactions (USER)
 - `POST /api/transactions/buy` → Buy mutual fund
 - `POST /api/transactions/sell` → Sell mutual fund
