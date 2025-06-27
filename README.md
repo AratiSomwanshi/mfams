@@ -100,7 +100,6 @@ This project is a backend system for managing mutual fund accounts. It supports 
 
 
 
-
 ### ⏱ Scheduled Task
 - Automatic NAV update daily at 12 AM using random % fluctuation
 
