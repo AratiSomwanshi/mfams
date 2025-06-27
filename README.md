@@ -68,4 +68,4 @@ Role-based access using Spring Security and `@PreAuthorize`.
   "password": "123456",
   "role": "USER"
 } ![image alt](https://github.com/AratiSomwanshi/mfams/blob/main/mfams/image/1_Registration_Admin.png)
-
+![image alt](https://github.com/AratiSomwanshi/mfams/blob/3b2e232e125381f1119b8925444d68a06c8b1df6/mfams/image/1_Registration_User.png)
