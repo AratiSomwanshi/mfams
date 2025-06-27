@@ -43,8 +43,13 @@ This project is a backend system for managing mutual fund accounts. It supports 
 
 
   ![image alt](https://github.com/AratiSomwanshi/mfams/blob/9c24b3529492ae603df92c87469d0c0c8136eab9/mfams/image/2_Login_Admin.png)
-  ![image alt]()
+  ![image alt](https://github.com/AratiSomwanshi/mfams/blob/01ec49e38c3325237b15f892d2ef437e50770290/mfams/image/2_Login_User.png)
+
+  ---
 - `GET /api/auth/me` → Get current user info
+  ### 3. User info (GET /api/auth/me)
+  !i[image alt]()
+  
 
 ### 💼 Mutual Fund Management
 - `POST /api/funds` → Add new fund (ADMIN only)
