@@ -61,13 +61,7 @@ Role-based access using Spring Security and `@PreAuthorize`.
 ## 🧪 How to Test (Postman)
 
 ### 1. Register a user (POST `/api/auth/register`)
-```json
-{
-  "username": "arati",
-  "email": "arati@gmail.com",
-  "password": "123456",
-  "role": "USER"
-}
+
 ###
 
 
