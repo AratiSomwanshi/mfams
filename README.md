@@ -38,10 +38,11 @@ This project is a backend system for managing mutual fund accounts. It supports 
 
 
 ---
+- `POST /api/auth/login` → Login and receive JWT token
 ### 2. Login a user (POST /api/auth/login)
 
-- `POST /api/auth/login` → Login and receive JWT token
-  ![image alt]()
+
+  ![image alt](https://github.com/AratiSomwanshi/mfams/blob/9c24b3529492ae603df92c87469d0c0c8136eab9/mfams/image/2_Login_Admin.png)
   ![image alt]()
 - `GET /api/auth/me` → Get current user info
 
