@@ -110,8 +110,11 @@ This project is a backend system for managing mutual fund accounts. It supports 
 
 src/main/resources/application.properties:
 -spring.datasource.url=jdbc:mysql://localhost:3306/mfams
+
 -spring.datasource.username=root
+
 -spring.datasource.password=yourpassword
+
 -spring.jpa.hibernate.ddl-auto=update
 
 
