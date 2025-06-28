@@ -104,3 +104,16 @@ This project is a backend system for managing mutual fund accounts. It supports 
 - Automatic NAV update daily at 12 AM using random % fluctuation
 
 ---
+### ▶️ How to Run Locally
+1. Clone this repo or extract the zip
+2. Configure your DB in `application.properties`
+
+src/main/resources/application.properties:
+-spring.datasource.url=jdbc:mysql://localhost:3306/mfams
+-spring.datasource.username=root
+-spring.datasource.password=yourpassword
+-spring.jpa.hibernate.ddl-auto=update
+
+
+3. Run the app:./mvnw spring-boot:run
+4. Use Thunder Client or Postman to test APIs
